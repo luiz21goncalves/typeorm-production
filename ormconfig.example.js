@@ -5,7 +5,7 @@ module.exports = {
   username: 'docker',
   password: 'docker',
   database: 'test',
-  entities: ['./src/entities/*.ts'],
+  entities: ['./src/modules/**/entities/*.ts'],
   migrations: ['./src/database/migrations/*.ts'],
   cli: {
     migrationsDir: './src/database/migrations',
