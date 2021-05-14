@@ -21,8 +21,11 @@ git clone git@github.com:luiz21goncalves/typeorm-production.git
 # acesse o diretório
 cd typeorm-production
 
-# copie as váriaves de ambiente
+# configure as váriaves de ambiente
 cp .env.example .env
+
+# configure conexão com bando de dados
+cp ormconfig.example.js ormconfig.js
 
 # instalando as dependências
 yarn
