@@ -2,6 +2,8 @@
 ormconfig.*
 !ormconfig.example.*
 
+dist
+
 # Logs
 logs
 *.log
