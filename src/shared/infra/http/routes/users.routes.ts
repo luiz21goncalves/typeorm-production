@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import { createUser } from '../../../../modules/products/useCases/createUser';
+import { createUser } from '../../../../modules/users/useCases/createUser';
 
 const usersRouter = Router();
 
