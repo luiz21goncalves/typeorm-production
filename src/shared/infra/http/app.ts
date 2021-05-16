@@ -17,4 +17,10 @@ app.use(cors());
 
 app.use(routes);
 
+app.get('/', (request, response) => {
+  return response.json({
+    message: 'Hello Word',
+  });
+});
+
 export { app };
